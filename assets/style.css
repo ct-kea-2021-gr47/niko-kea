@@ -142,6 +142,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   /* NOTE html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px :) */
   html {
     font-size: 62.5%;
+    
   }
   body {
     font-size: 1.5em;
@@ -156,6 +157,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 300;
+    color: black;
   }
   h1 {
     font-size: 4.5rem;
@@ -200,6 +202,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   p {
     margin-top: 0;
+    color: black;
   }
   /* Blockquotes –––––––––––––––––––––––––––––––––––––––––––––––––– */
   blockquote {
@@ -455,7 +458,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   .div-for-charts{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100%;
   }
   #histogram {
@@ -486,7 +489,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   .Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
     background-color: #ffffff;
-    color: white;
+    color: gray;
   
   }
   
@@ -502,9 +505,9 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
   }
   
   .has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
-    color: white;
-    background: #1E1E1E;
-    background-color: #1E1E1E;
+    color:black;;
+    background: white;
+    background-color: white;
   }
   ._dash-app-content {
     overflow-x: hidden;
@@ -512,7 +515,7 @@ Taken from https://codepen.io/chriddyp/pen/bWLwgP.css
     position: relative;
   }
   .has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-labeln {
-    color: #d8d8d8;
+    color: black;
     font-weight: 400;
     font-size: 14px;
   }
